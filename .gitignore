@@ -1,0 +1,71 @@
+# ─── Environment Variables (NEVER commit) ────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+ENV/
+env/
+.venv/
+
+# ─── Node / Frontend ──────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Audio / Media (test files) ───────────────────────────────────────────────
+*.wav
+*.mp3
+
+# ─── ML Models (large binary files) ──────────────────────────────────────────
+models/
+
+# ─── Build / Cache ────────────────────────────────────────────────────────────
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.python-version
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+ngrok.exe
+ngrok
